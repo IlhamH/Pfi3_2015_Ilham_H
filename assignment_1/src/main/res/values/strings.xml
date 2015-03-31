@@ -1,6 +1,32 @@
 <resources>
-    <string name="app_name">Assignment_1</string>
+    <string name="app_name">Pfi3_2015_Ilham_H</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="Title">Fabulous Quotes</string>
     <string name="action_settings">Settings</string>
+    <string name="myText">Your Fabulous Quote ...</string>
+    <string name="myButton">Next Quote</string>
+
+    <string-array name="myQuotes">
+
+        <item>``A girl should be two things: classy and fabulous´´
+            - Coco Chanel  </item>
+
+        <item>``True intelligence requires fabulous imagination´´
+            - Ian Mcewan </item>
+
+        <item>``You cannot fake chic but you﻿ can be chic and fake fur´´
+        - Karl Lagerfeld </item>
+
+        <item> ``Elegance does not consist in putting on a new dress´´
+        - Coco Chanel  </item>
+
+        <item> ``I never worry about diets. The only carrots that interest me are the number you get in a diamond´´
+
+        - Mae West </item>
+
+        <item> ``Big girls need big diamonds´´
+        - Elizabeth Taylor</item>
+
+    </string-array>
+
 </resources>

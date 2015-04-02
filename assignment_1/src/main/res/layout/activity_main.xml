@@ -14,12 +14,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/Title"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
-        android:layout_width="500dp"
-        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textSize="25sp"
         android:textStyle="italic"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -27,8 +26,9 @@
         android:id="@+id/textView"
         android:focusable="false"
         android:gravity="center_horizontal"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp" />
 
     <Button
         android:layout_width="230dp"
@@ -39,13 +39,12 @@
         android:id="@+id/nextButton"
         android:nestedScrollingEnabled="false"
         android:onClick="buttonOnClicked"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="73dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:id="@+id/imageView"
         android:src="@drawable/diamond_icon"
         android:layout_below="@+id/Title"

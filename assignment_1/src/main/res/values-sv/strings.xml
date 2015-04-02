@@ -2,5 +2,29 @@
 
     <string name="Title">Fabulösa Citat</string>
     <string name="myText">Ditt Fabulösa Citat</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="myButton">Nästa Citat</string>
 
+    <string-array name="myQuotes">
+
+        <item>``En dam borde vara två saker: Stilig och fabulös´´
+            - Coco Chanel  </item>
+
+        <item>``Sann intelligens kräver fantastiska imagination´´
+            - Ian Mcewan </item>
+
+        <item>``Du kan inte fejka chic men du kan vara chic och fuskpäls´´
+        - Karl Lagerfeld </item>
+
+        <item> ``Elegance är inte att sätta på en ny klänning´´
+        - Coco Chanel  </item>
+
+        <item> ``Jag oroar aldrig om dieter. De enda morötter som intresserar mig är numret du får i en diamant´´
+
+        - Mae West </item>
+
+        <item> ``Stora damer behöver stora diamanter´´
+        - Elizabeth Taylor</item>
+
+    </string-array>
 </resources>

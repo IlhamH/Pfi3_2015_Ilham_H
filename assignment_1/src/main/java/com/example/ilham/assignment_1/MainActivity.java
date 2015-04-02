@@ -52,7 +52,7 @@ public class MainActivity extends ActionBarActivity {
         t = (TextView) findViewById(R.id.textView); // TextView - ref. till specifik textView
 
         Resources res = getResources(); // Hänvisar till resources mappen?
-        String[] Quotes = res.getStringArray(R.array.myQuotes); // Min string array
+        String[] Quotes = res.getStringArray(R.array.myQuotes); // Min string array R --> frame
 
         t.setText(Quotes[new Random().nextInt(Quotes.length)]); // Här säger man till vad som ska visas på TextView.
     }

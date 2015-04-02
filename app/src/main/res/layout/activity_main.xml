@@ -3,9 +3,31 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#17040303">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView android:text="@string/Fabulous" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FabulousQuotes"
+        android:textColor="#ffb09dff"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textIsSelectable="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/InfoText"
+        android:id="@+id/textView"
+        android:layout_below="@+id/FabulousQuotes"
+        android:layout_marginTop="40dp"
+        android:layout_alignEnd="@+id/FabulousQuotes"
+        android:layout_alignStart="@+id/FabulousQuotes"
+        android:textSize="25sp"
+        android:hint="Click for a fabulous quote!" />
 
 </RelativeLayout>

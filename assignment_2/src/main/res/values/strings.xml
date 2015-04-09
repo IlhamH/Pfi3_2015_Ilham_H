@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Assignment_2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Search">Search</string>
+    <string name="Tickets">Tickets</string>
+    <string name="JourneyPlanner">Journey planner</string>
+    <string name="Timetables">Timetables</string>
+    <string name="Departures">Departures</string>
+    <string name="From">From</string>
+    <string name="To">To</string>
+    <string name="Favorites">Favorites</string>
+    <string name="TandD">Time/date</string>
+    <string name="Now">Now</string>
+    <string name="Edit">Edit</string>
+    <string name="Arrival">Arrival</string>
+    <string name="Departure">Departure</string>
+    <string name="Transportmode">Transport mode</string>
+    <string name="Sub">Subscriptions</string>
+
+
+    <string name="Search1">Search</string>
+</resources>

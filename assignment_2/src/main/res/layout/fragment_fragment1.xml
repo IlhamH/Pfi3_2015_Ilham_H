@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" tools:context="com.example.ilham.assignment_2.Fragment1"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+
+   >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/From"
+            android:id="@+id/textView4"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:hint="Your location"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/To"
+            android:id="@+id/textView5"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:hint="Your destination"
+            android:layout_weight="4.97"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Favorites"
+        android:id="@+id/textView6"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:text="@string/TandD"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Now"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:text="@string/Arrival"
+            android:checked="false"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Departure"
+            android:id="@+id/radioButton2"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Edit"
+            android:id="@+id/button"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Transportmode"
+            android:id="@+id/textView9"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Edit"
+            android:id="@+id/button2"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Sub"
+            android:id="@+id/textView10"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

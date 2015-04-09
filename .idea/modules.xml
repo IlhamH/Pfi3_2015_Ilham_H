@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/Pfi3_2015_Ilham_H.iml" filepath="$PROJECT_DIR$/Pfi3_2015_Ilham_H.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignment_1/assignment_1.iml" filepath="$PROJECT_DIR$/assignment_1/assignment_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/assignment_1_new/assignment_2_not_done!.iml" filepath="$PROJECT_DIR$/assignment_1_new/assignment_2_not_done!.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment_1_new/assignment_1_new.iml" filepath="$PROJECT_DIR$/assignment_1_new/assignment_1_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment_2/assignment_2.iml" filepath="$PROJECT_DIR$/assignment_2/assignment_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture2_example/lecture2_example.iml" filepath="$PROJECT_DIR$/lecture2_example/lecture2_example.iml" />
     </modules>
   </component>
 </project>

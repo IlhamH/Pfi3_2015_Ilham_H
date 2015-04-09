@@ -55,6 +55,10 @@ public class MainActivity extends ActionBarActivity {
         String[] Quotes = res.getStringArray(R.array.myQuotes); // Min string array R --> frame
 
         t.setText(Quotes[new Random().nextInt(Quotes.length)]); // Här säger man till vad som ska visas på TextView.
+
+
+
+        // Googla på Button onClickListener()
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

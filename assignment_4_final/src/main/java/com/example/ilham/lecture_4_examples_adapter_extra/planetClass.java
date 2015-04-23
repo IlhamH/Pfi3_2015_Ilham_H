@@ -7,32 +7,64 @@ import java.io.Serializable;
 /**
  * Created by Ilham on 2015-04-21.
  */
-public class planetClass implements Serializable{
-    String nameOfPlanets;
-    Drawable imgId;
+public class planetClass implements Serializable {
+    String title;
+    String radius;
+    String temp;
+    Drawable image;
+    String summary;
 
+    public planetClass(String title, String radius, String temp, Drawable image, String summary) {
+        this.title = title;
+        this.temp = temp;
+        this.image = image;
+        this.radius=radius;
+        this.summary = summary;
 
-    // Planet = img + name
-    public planetClass( String nameOfPlanets, Drawable imgId){
-        this.imgId = imgId;
-        this.nameOfPlanets = nameOfPlanets;
     }
 
-    public String getNameOfPlanets(){return nameOfPlanets;}
-
-    public void setNameOfPlanets(String nameOfPlanets) {
-        this.nameOfPlanets = nameOfPlanets;
+    public String getTemp() {
+        return temp;
     }
 
-    public Drawable getImgId() {
-        return imgId;
+    public void setTemp(String temp) {
+        this.temp = temp;
     }
 
-    public void setImgId(Drawable imgId) {
-        this.imgId = imgId;
+    public Drawable getImage() {
+        return image;
+    }
+
+    public void setImage(Drawable image) {
+        this.image = image;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getRadius() {
+        return radius;
+    }
+
+    public void setRadius(String radius) {
+        this.radius = radius;
     }
 
 
-    public String getInfo(){
-        return "Info About This Planet";
+
+    @Override
+    public String toString() {
+        return title;
+    }
+
+    public String getSummary() {
+        return summary;}
+
+    public void setSummary(String summary){
+        this.summary=summary;
     }}

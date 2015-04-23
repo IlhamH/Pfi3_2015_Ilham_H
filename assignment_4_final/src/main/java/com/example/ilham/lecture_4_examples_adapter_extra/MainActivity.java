@@ -7,9 +7,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.ilham.lecture_4_examples_adapter_extra.FragmentSpinners;
-import com.example.ilham.lecture_4_examples_adapter_extra.Fragment_GridView;
-
 import se.mah.k3.lecture_4_examples_adapter_extra.R;
 
 
@@ -58,7 +55,7 @@ public class MainActivity extends ActionBarActivity {
 
         if (id == R.id.action_spinner) {
             FragmentManager fm = getFragmentManager();
-            FragmentSpinners fd = new FragmentSpinners();
+            FragmentDialog fd = new FragmentDialog();
             Bundle b = new Bundle();
             fd.setArguments(b);
             fd.show(fm,"Dialog");

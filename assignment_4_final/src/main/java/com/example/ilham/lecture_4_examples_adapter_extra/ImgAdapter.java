@@ -33,12 +33,12 @@ public class ImgAdapter extends ArrayAdapter<planetClass> {
     public View getView(int position, View convertView, ViewGroup parent) {
         Log.i("MyListAdapter", "Called for position: " + position);
         LayoutInflater inflater = (LayoutInflater) c.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        convertView = inflater.inflate(R.layout.list_item,null);
+        convertView = inflater.inflate(R.layout.grid_item,null);
         planetClass b = booksList.get(position);
         TextView tv = (TextView) convertView.findViewById(R.id.tv_title);
         ImageView iv = (ImageView) convertView.findViewById(R.id.iv_bookcover);
-        tv.setText(b.getNameOfPlanets());
-        iv.setImageDrawable(b.getImgId());
+        tv.setText(b.getTitle());
+        iv.setImageDrawable(b.getImage());
         return convertView;
     }
 }

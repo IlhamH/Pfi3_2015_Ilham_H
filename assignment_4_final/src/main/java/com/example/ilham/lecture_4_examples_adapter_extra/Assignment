@@ -1,0 +1,18 @@
+ Assignment:
+ 1: Download the code to at least one of your computers.
+ 2: ((20 minutes) Run, Test, Read, Clean, Discuss, Comment and Change the part of the code your
+ group are assigned so all in the group understands all parts of that code.
+ 3: (10 minutes) Prepare so someone from the group can explain how your part works.
+ 4: (5 Minutes) Present your part of the code to the rest of the class On WhiteBoard, No computer).
+
+Topics:
+ Group 1: The ActionBar and Selecting menu items.
+ Group 2: DialogFragment
+ Group 3: Spinners
+ Group 4: FragmentList
+ Group 5: Communication between fragments with Line 55-50 in FragmentWithList
+ Group 6: "FragmentList.books.get(position)" in the class FragmentSpinners
+ Group 7: What does Serializable mean and why does the class Book implement Serializable.
+ Group 8: Why does spinner2 in FragmentSpinners print the title of the book in the spinner.
+ Group 9: Draw an UML diagram for all the classes, include important classes, methods, interfaces and inheritance.
+ Group 10: MyListAdapter

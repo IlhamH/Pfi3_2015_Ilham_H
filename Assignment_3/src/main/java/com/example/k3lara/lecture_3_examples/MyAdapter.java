@@ -88,16 +88,17 @@ public class MyAdapter extends BaseExpandableListAdapter {
 
         TextView Forsening = (TextView) convertView.findViewById(R.id.Forsening);
         String depTimeDeviation = myItems.get(groupPosition).getDepTimeDeviation();
-        int late = Integer.parseInt(depTimeDeviation);
-        if(late <= 0 ){
+            Forsening.setText(depTimeDeviation + " minutes late");
+
+//        int late = Integer.parseInt(depTimeDeviation);
+       /* if(late <= 0 ){
             Forsening.setText("On time");
         }
         else
         {
             Forsening.setText(depTimeDeviation + " minutes late");
         }
-
-
+*/
 
         return convertView;
     }
